@@ -1,11 +1,16 @@
 Make sure you picked the right browser for your OS for the best experience.
 
-**TLDR:**  
-  - Windows/Linux/SteamOS: Chrome, Edge or any Chromium variants  
-  - MacOS: Chrome, Edge  
-  - iOS/iPadOS: only Safari ([read more](safari.md) about its limitations)  
-  - Android/Android TV: Kiwi Browser
+### Summary
+*(click on the link for the installation guide)*  
+
+  - Windows/Linux/SteamOS: [Chrome, Edge or any Chromium variants](chromium.md)  
+  - MacOS: [Chrome, Edge](chromium.md)  
+  - iOS/iPadOS: [only Safari](safari.md)  
+  - Android/Android TV: [Kiwi Browser](chromium.md)  
+
 ---
+### Details
+
 - 👍 = best choice, all features work as intended
 - ✅ = confirmed to be working, might miss some features
 - ❌ = not supported (mostly because of lacking Userscript/extension support)
