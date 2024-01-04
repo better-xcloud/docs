@@ -1,0 +1,4 @@
+[submodule "better-xcloud.github.io"]
+	path = better-xcloud.github.io
+	url = https://github.com/better-xcloud/better-xcloud.github.io
+	branch = main
