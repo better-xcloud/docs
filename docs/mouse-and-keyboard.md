@@ -21,6 +21,8 @@
 
 - Open remapper in `... > Stream setting > Mouse & Keyboard tab`
 
+    ![Remapper](images/mkb/remapper.png){ width="400" }
+
 ### Presets
 - Allow creating multiple presets for different games.
 
