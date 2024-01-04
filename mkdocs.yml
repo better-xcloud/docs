@@ -1,0 +1,45 @@
+repo_url: https://github.com/redphx/better-xcloud
+repo_name: Better xCloud
+
+site_name: Better xCloud
+site_url: https://better-xcloud.github.io
+site_author: redphx
+site_description: a short description of your website
+
+nav:
+  - About: index.md
+  - How to install:
+    - Browsers: browsers.md
+    - Chrome/Edge/Kiwi Browser: chromium.md
+    - Safari: safari.md
+  - Features:
+    - Features: features.md
+    - In-game features: ingame-features.md
+    - Mouse & Keyboard: mouse-and-keyboard.md
+    - Remote Play: remote-play.md
+    - Stream stats: stream-stats.md
+    - Screenshot capture: screenshot-capture.md
+  - ❤️ Donation: donation.md
+  - FAQ: faq.md
+  - Translators: translators.md
+  - Acknowledgements: acknowledgements.md
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: green
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.expand
+
+extra:
+  social:
+    - icon: simple/kofi
+      link: https://ko-fi.com/redphx
+      name: Support Better xCloud on Ko-fi
+
+markdown_extensions:
+  - attr_list
+  - md_in_html

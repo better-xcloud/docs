@@ -1,0 +1,20 @@
+1. **Will I get banned for using this?**  
+I think it's very unlikely that you'll get banned for using this. Most of the features only affect client-side, except for switching region of streaming server (you'll connect to another server instead of the default one). If you want to be safe just avoid using that. As always, use it as your own risk.
+
+2. **Why is it an Userscript and not an extension?**  
+It's because not many browsers on Android/iOS support installing extensions (and not all extensions can be installed).
+
+3. **Why doesn't the xCloud website implement *this* or *that* feature from Better xCloud?**  
+Think of this project as an unofficial beta version of xCloud.  
+    - **Better xCloud** doesn't have to worry about the compatibility much: if it doesn't work on this browser, it can just suggest you switch to another one. xCloud can't do the same.  
+    - On the xCloud's side, they have a lot more users and devices to support, so it's more difficult for them to implement a new feature.  
+    - Also, it's not easy to explain some of the features of **Better xCloud** to normal xCloud users.  
+
+4. **Can I use this with the Xbox Android app?**  
+No, you can't. You'll have to modify the app.
+
+5. **Will it be able to request a lower FPS or increase the maximum bitrate (15Mbps) of the stream?**  
+Sorry, no. The server decides all these settings.
+
+6. **What's the meaning behind the name "Better xCloud"?**  
+It's a reference to an Userscript called "better360" that I created many years ago. I regret not choosing the name "xCloud Enhancement Suite", or XES for short.  
