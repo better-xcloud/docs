@@ -1,3 +1,6 @@
+> ⚠️ Only works on deskop browsers, as Safari iOS & Chromium Android don't support Pointer Lock API.
+
+
 - 100% free.
 - No input lag.
 - Works with every games.
@@ -6,8 +9,10 @@
 
 ---
 ## How to use
-
 - Enable this feature first in `Better xCloud's Settings > Mouse & Keyboard > Enable Mouse & Keyboard feature`.
+
+    ![mkb](./images/mkb/settings.png){ width="600" }
+
 - Play any game, then click on the message to lock your mouse and start emulating the controller.
 
     ![click-to-activate](./images/mkb/activate.png){ width="600" }

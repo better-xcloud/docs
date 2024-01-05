@@ -1,3 +1,5 @@
+dev_addr: 127.0.0.1:8888
+
 repo_url: https://github.com/redphx/better-xcloud
 repo_name: Better xCloud
 
