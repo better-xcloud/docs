@@ -48,5 +48,8 @@ Check [Mouse and Keyboard page](mouse-and-keyboard.md) for more details.
 Useful when you don't have a 16:9 screen
 
 ### Adjust video filters
+!!! warning
+    These features don't work when xCloud's "Clarity Boost" feature is ON ([#64](https://github.com/redphx/better-xcloud/issues/64)).  
+
 - Brightness/Contrast/Saturation.  
-- ⚠️ These features don't work when xCloud's "Clarity Boost" feature is ON ([#64](https://github.com/redphx/better-xcloud/issues/64)).  
+

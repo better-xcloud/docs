@@ -25,8 +25,10 @@
   - By default (for compatibility reasons) xCloud only uses high quality codec profile when you use Tizen TV or Chrome/Edge/Chromium browser on Chrome/MacOS. Enable this setting will give you the best experience no matter what platform & browser you're on.
 
 ### Enable volume control feature
+!!! warning
+    Disable this setting if you experience slowdown, choppy/muted stream  
+
   - Allow increasing stream's volume up to 600%  
-  - ⚠️ Disable this setting if you experience slowdown, choppy/muted stream  
 
 ### Enable microphone on game launch
   - Automatically enable the mic when starting to play a game.  
@@ -124,7 +126,9 @@ Hide the mouse cursor after 3 seconds of not moving.
 ## Advanced features  
 
 ### Change User-Agent
-  - ⚠️ 99% of the time you don't need to use this feature anymore.
+!!! warning
+    99% of the time you don't need to use this feature anymore.
+
   - Useful when you're using unsupported browsers.  
   - This setting only affects xCloud, and it doesn't change browser's global User-Agent.  
   - 📝 If you get 404 error after using this feature, try refreshing the page a few times. See [#34](https://github.com/redphx/better-xcloud/issues/34).  

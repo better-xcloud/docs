@@ -1,3 +1,8 @@
+---
+title: How to install Better xCloud on Safari macOS/iOS/iPadOS
+---
+# Install Better xCloud on Safari macOS/iOS/iPadOS
+
 ## Main problem
 
 **Better xCloud** supports macOS, iOS, and iPadOS with Safari.
@@ -7,7 +12,7 @@ But this extension has [one big issue](https://github.com/redphx/better-xcloud/i
 
 To work around this problem, I've implemented a feature that **Better xCloud** will automatically refresh the page until it works. If you see a message like this screenshot below, just wait for the page to reload. It usually takes 1-2 times maximum.  
 
-![Safari](./images/safari-failed.png)
+![Safari](images/safari-failed.png)
 
 That's why, on macOS, I *recommend* using Chrome/Edge browser + Tampermonkey extension for the best experience + stream quality (you won't be able to use the high-quality codec in Safari).
 
@@ -34,11 +39,11 @@ If you want to have the best xCloud experience, play it on Android phone/tablet 
 
 4. Open `Device's Settings > Safari > Extensions`, then enable the Userscripts extension.
 
-    ![Safari](./images/safari-ios/enable-userscripts.png)
+    ![Safari](images/safari-ios/enable-userscripts.png)
 
 5. Open the newly installed **Userscripts** app found in home screen, then click on **Set Userscripts Directory**.
 
-    ![Safari](./images/safari-ios/userscripts-home.png)
+    ![Safari](images/safari-ios/userscripts-home.png)
 
 6. Select the `Downloads/userscripts` folder that you created in step #2.
 
@@ -46,30 +51,31 @@ If you want to have the best xCloud experience, play it on Android phone/tablet 
 
 8. Click on the Extension button in the address bar, click on the "Userscripts" button, then choose "Always Allows..." and "Always Allow on This Website" options.
 
-    ![Safari](./images/safari-ios/userscripts-allow.png)
+    ![Safari](images/safari-ios/userscripts-allow.png)
 
 9. If you set everything up correctly, you'll see a new button next to your profile picture.
 
-    ![Safari](./images/safari-ios/server-button.png)
+    ![Server button](images/server-button.png)
 
 ---
 ## Install on MacOS
 
-⚠️ For the best experience, use Chrome/Edge browser instead of Safari if possible.
+!!! warning
+    For the best experience, use Chrome/Edge browser instead of Safari if possible.
 
 1. Install the [Userscripts extension](https://apps.apple.com/us/app/userscripts/id1463298887) from App Store.
 
 2. Open Safari, click on the "Userscripts" button, then "Open save location".
 
-    ![Safari](./images/safari-mac/popup-before.png)
+    ![Safari](images/safari-mac/popup-before.png)
 
 3. Download and save the [Better xCloud script](https://github.com/redphx/better-xcloud/releases/latest/download/better-xcloud.user.js) into the folder in step #2.
 
 4. Visit [https://xbox.com/play](https://xbox.com/play).
 
 5. Make sure you see the "Better xCloud" script in the "Userscripts" popup.
-    ![Safari](./images/safari-mac/popup-after.png)
+    ![Safari](images/safari-mac/popup-after.png)
 
 5. If you set everything up correctly, you'll see a new button next to your profile picture.
 
-    ![Safari](./images/safari-mac/server-button.png)
+    ![Server button](images/server-button.png)

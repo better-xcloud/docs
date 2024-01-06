@@ -15,4 +15,4 @@
 5. Screenshot will be saved by the browser.
 6. You can double-tap that corner to capture screenshot.
 
-![screenshot](./images/gifs/taking-screenshot.gif)
+![screenshot](images/gifs/taking-screenshot.gif)

@@ -1,5 +1,5 @@
-> ⚠️ Only works on deskop browsers, as Safari iOS & Chromium Android don't support Pointer Lock API.
-
+!!! warning
+    Only works on deskop browsers, as Safari iOS & Chromium Android don't support the **Pointer Lock API**.
 
 - 100% free.
 - No input lag.
@@ -41,7 +41,8 @@
     - Scroll up/down/left/right
 
 ### Mouse
-- ⚠️ You may also need to adjust the in-game sensitivity & deadzone settings.
+!!! warning
+    You may also need to adjust the in-game sensitivity & deadzone settings.
 
 - You can choose which analog stick the mouse is mapped to.
 - Deadzone counterweight
