@@ -3,10 +3,13 @@ Make sure you picked the right browser for your OS for the best experience.
 ### Summary
 *(click on the link for the installation guide)*  
 
-  - Windows/Linux/SteamOS: [Chrome, Edge or any Chromium variants](chromium.md)  
-  - MacOS: [Chrome, Edge](chromium.md)  
-  - iOS/iPadOS: [only Safari](safari.md)  
-  - Android/Android TV: [Kiwi Browser](chromium.md)  
+| Platform                      | Best browser                                         |
+|-------------------------------|------------------------------------------------------|
+| Windows/Linux/SteamOS         | [Chrome, Edge or any Chromium variants](chromium.md) |
+| MacOS                         | [Chrome, Edge or any Chromium variants](chromium.md) |
+| Linux/SteamOS                 | [Chrome, Edge or any Chromium variants](chromium.md) |
+| iOS/iPadOS                    | [only Safari](safari.md)                             |
+| Android/Android TV/Meta Quest | [Kiwi Browser](chromium.md)                          |
 
 ---
 ### Details

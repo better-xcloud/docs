@@ -31,11 +31,15 @@ If you want to have the best xCloud experience, play it on Android phone/tablet 
 
 *Thanks [GopherTheCoder](https://github.com/GopherTheCoder) for the guide*
 
-1. Download the [Better xCloud script](https://github.com/redphx/better-xcloud/releases/latest/download/better-xcloud.user.js) to your device.  
+1. Download the **Better xCloud** script to your device.  
+    
+    [:material-download: Download **Better xCloud**](https://github.com/redphx/better-xcloud/releases/latest/download/better-xcloud.user.js){ class="md-button md-button--primary" target="_blank" }
 
-2. Open the `Downloads` folder in the **Files** app, create a new `userscripts` folder and move the `better-xcloud.user.js` into that folder.
+2. Open the `Downloads` folder in the **Files** app, create a new `userscripts` folder and move the `better-xcloud.user.js` file into that folder.
 
-3. Install the [Userscripts extension](https://apps.apple.com/us/app/userscripts/id1463298887) from App Store.
+3. Install the **Userscripts** extension from App Store.  
+    
+    [:material-puzzle: Install **Userscripts**](https://apps.apple.com/us/app/userscripts/id1463298887){ class="md-button md-button--primary" target="_blank" }
 
 4. Open `Device's Settings > Safari > Extensions`, then enable the Userscripts extension.
 
@@ -47,7 +51,7 @@ If you want to have the best xCloud experience, play it on Android phone/tablet 
 
 6. Select the `Downloads/userscripts` folder that you created in step #2.
 
-7. Open Safari and visit [https://xbox.com/play](https://xbox.com/play).
+7. Open Safari and visit [https://www.xbox.com/play](https://www.xbox.com/play).
 
 8. Click on the Extension button in the address bar, click on the "Userscripts" button, then choose "Always Allows..." and "Always Allow on This Website" options.
 
@@ -63,15 +67,19 @@ If you want to have the best xCloud experience, play it on Android phone/tablet 
 !!! warning
     For the best experience, use Chrome/Edge browser instead of Safari if possible.
 
-1. Install the [Userscripts extension](https://apps.apple.com/us/app/userscripts/id1463298887) from App Store.
+1. Install the **Userscripts** extension from App Store.  
+    
+    [:material-puzzle: Install **Userscripts**](https://apps.apple.com/us/app/userscripts/id1463298887){ class="md-button md-button--primary" target="_blank" }
 
 2. Open Safari, click on the "Userscripts" button, then "Open save location".
 
     ![Safari](images/safari-mac/popup-before.png)
 
-3. Download and save the [Better xCloud script](https://github.com/redphx/better-xcloud/releases/latest/download/better-xcloud.user.js) into the folder in step #2.
+3. Download and save the **Better xCloud** script into the folder in step #2.  
+   
+    [:material-download: Download **Better xCloud**](https://github.com/redphx/better-xcloud/releases/latest/download/better-xcloud.user.js){ class="md-button md-button--primary" target="_blank" }
 
-4. Visit [https://xbox.com/play](https://xbox.com/play).
+4. Visit [https://www.xbox.com/play](https://www.xbox.com/play).
 
 5. Make sure you see the "Better xCloud" script in the "Userscripts" popup.
     ![Safari](images/safari-mac/popup-after.png)

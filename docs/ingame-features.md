@@ -1,5 +1,5 @@
 ## Stream menu
-![Stream menu](./images/stream-menu.png)
+![Stream menu](images/stream-menu.png)
 
 ### Display stream's statuses:  
 - Region/Server/Codec/Resolution...  
@@ -16,7 +16,7 @@ Check [Mouse and Keyboard page](mouse-and-keyboard.md) for more details.
 
 ---
 ## Controller
-![Controller settings](./images/controller-settings.png){ width="400" }
+![Controller settings](images/controller-settings.png){ width="400" }
 
 ### Controller & device vibrations
   - Control vibration settings.  
@@ -25,7 +25,7 @@ Check [Mouse and Keyboard page](mouse-and-keyboard.md) for more details.
 ---
 ## Audio
 
-![Audio settings](./images/audio-settings.png){ width="400" }
+![Audio settings](images/audio-settings.png){ width="400" }
 
 ### Volume control
 - Increase stream's volume up to 600%.  
@@ -33,11 +33,11 @@ Check [Mouse and Keyboard page](mouse-and-keyboard.md) for more details.
 
 ---
 ## Video
-![Video settings](./images/video-settings.png){ width="400" }
+![Video settings](images/video-settings.png){ width="400" }
 
 ### Improve stream's clarity
 
-![Clarity](./images/clarity-boost.png)
+![Clarity](images/clarity-boost.png)
 *(click to enlarge)*
 
 - Similar to the "Clarity Boost" of xCloud on Edge browser. [Demo video](https://youtu.be/ZhW2choAHUs).  
