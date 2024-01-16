@@ -38,6 +38,10 @@ theme:
 
 extra:
   social:
+    - icon: simple/telegram
+      link: https://t.me/betterxcloud
+      name: Better xCloud on Telegram
+
     - icon: simple/kofi
       link: https://ko-fi.com/redphx
       name: Support Better xCloud on Ko-fi
