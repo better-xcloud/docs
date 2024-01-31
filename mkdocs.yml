@@ -12,7 +12,8 @@ nav:
   - About: index.md
   - How to install:
     - Browsers: browsers.md
-    - Chrome/Edge/Kiwi Browser: chromium.md
+    - Chrome/Edge: chromium.md
+    - Kiwi Browser: kiwi-browser.md
     - Safari: safari.md
   - Features:
     - Features: features.md

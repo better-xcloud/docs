@@ -9,7 +9,7 @@ Make sure you picked the right browser for your OS for the best experience.
 | MacOS                         | [Chrome, Edge or any Chromium variants](chromium.md) |
 | Linux/SteamOS                 | [Chrome, Edge or any Chromium variants](chromium.md) |
 | iOS/iPadOS                    | [only Safari](safari.md)                             |
-| Android/Android TV/Meta Quest | [Kiwi Browser](chromium.md)                          |
+| Android/Android TV/Meta Quest | [Kiwi Browser](kiwi-browser.md)                          |
 
 ---
 ### Details

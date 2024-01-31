@@ -6,7 +6,8 @@
 Improve Xbox Cloud Gaming (xCloud) experience on [xbox.com/play](https://www.xbox.com/play).  
 It also allows you to use Remote Play on the xCloud website.
 
-[:material-google-chrome: Install on Chrome/Edge/Kiwi Browser](chromium.md){ .md-button .md-button--primary }
+[:material-google-chrome: Install on Chrome/Edge](chromium.md){ .md-button .md-button--primary }
+[:fontawesome-solid-kiwi-bird: Install on Kiwi Browser](kiwi-browser.md){ .md-button .md-button--primary }
 [:material-apple-safari: Install on Safari](safari.md){ .md-button .md-button--primary }
 
 ### Some highlights
