@@ -68,6 +68,8 @@
   - Muted  
   - All white (only for standard/default controller)  
 
+### [Custom touch controller layouts](https://github.com/redphx/better-xcloud/discussions/241) for non-touch supported games
+
 ---
 ## Mouse & Keyboard
 

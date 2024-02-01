@@ -7,7 +7,9 @@ Improve Xbox Cloud Gaming (xCloud) experience on [xbox.com/play](https://www.xbo
 It also allows you to use Remote Play on the xCloud website.
 
 [:material-google-chrome: Install on Chrome/Edge](chromium.md){ .md-button .md-button--primary }
+
 [:fontawesome-solid-kiwi-bird: Install on Kiwi Browser](kiwi-browser.md){ .md-button .md-button--primary }
+
 [:material-apple-safari: Install on Safari](safari.md){ .md-button .md-button--primary }
 
 ### Some highlights
@@ -18,6 +20,7 @@ It also allows you to use Remote Play on the xCloud website.
 - Show [stream stats](stream-stats.md)  
 - [Screenshot capture](screenshot-capture.md)  
 - [Touch controller](features.md#touch-controller) for all games
+- [Custom touch controller layouts](https://github.com/redphx/better-xcloud/discussions/241) for non-touch supported games
 - [And more...](features.md)
 
 

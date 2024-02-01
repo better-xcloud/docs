@@ -8,9 +8,13 @@ title: How to install Better xCloud on Kiwi Browser
     - If you previously enabled the `Desktop site` setting in **Kiwi Browser** (for 1080p resolution) then you can disable it as you don't have to do that anymore.  
     - I only distribute **Better xCloud** on GitHub, *DO NOT* download it on other websites or from unknown sources.
 
-1. Install Kiwi Browser
+1. Install **Kiwi Browser**
     
-    [:material-google-play: Install on Play Store](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser){ class="md-button md-button--primary" target="_blank" } or [:material-google-play: Sideload on APKMirror](https://www.apkmirror.com/apk/geometry-ou/kiwi-browser-fast-quiet/){ class="md-button md-button--primary" target="_blank" }
+    [:material-google-play: Install on Play Store](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser){ class="md-button md-button--primary" target="_blank" }
+
+    or
+
+    [:material-google-play: Sideload on APKMirror](https://www.apkmirror.com/apk/geometry-ou/kiwi-browser-fast-quiet/){ class="md-button md-button--primary" target="_blank" }
 
 
 2. Install the **Tampermonkey extension**  
@@ -21,8 +25,20 @@ title: How to install Better xCloud on Kiwi Browser
 
     [:material-download: Install **Better xCloud**](https://github.com/redphx/better-xcloud/releases/latest/download/better-xcloud.user.js){ class="md-button md-button--primary" target="_blank" }
 
+    !!! warning
+        You must install **Better xCloud** as a script inside the **Tampermonkey extension**, or it won't work!
+
 4. Visit [https://www.xbox.com/play/](https://www.xbox.com/play/)
 
 5. Click on the new *< SERVER NAME >* button next to your profile picture to adjust the settings
 
     ![Server button](images/server-button.png)
+
+# Troubleshooting
+
+If **Better xCloud** doesn't work or you see a `???` button, that means you installed it incorrectly.  
+
+You must install **Better xCloud** as a script inside the **Tampermonkey extension**, not as an extension. If you see something like this in the Extensions page, uninstall the **Better xCloud** extension and try again.
+
+![Incorrect install](images/kiwi-browser-incorrect.png)
+
