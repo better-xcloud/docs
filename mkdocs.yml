@@ -11,6 +11,7 @@ site_description: a short description of your website
 nav:
   - About: index.md
   - How to install:
+    - Android app: android.md
     - Browsers: browsers.md
     - Chrome/Edge: chromium.md
     - Kiwi Browser: kiwi-browser.md
@@ -19,6 +20,7 @@ nav:
     - Features: features.md
     - In-game features: ingame-features.md
     - Mouse & Keyboard: mouse-and-keyboard.md
+    - Local co-op: local-co-op.md
     - Remote Play: remote-play.md
     - Stream stats: stream-stats.md
     - Screenshot capture: screenshot-capture.md

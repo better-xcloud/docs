@@ -5,11 +5,11 @@ Make sure you picked the right browser for your OS for the best experience.
 
 | Platform                      | Best browser                                         |
 |-------------------------------|------------------------------------------------------|
-| Windows/Linux/SteamOS         | [Chrome, Edge or any Chromium variants](chromium.md) |
-| MacOS                         | [Chrome, Edge or any Chromium variants](chromium.md) |
+| Windows                       | [Chrome, Edge or any Chromium variants](chromium.md) |
+| macOS                         | [Chrome, Edge or any Chromium variants](chromium.md) |
 | Linux/SteamOS                 | [Chrome, Edge or any Chromium variants](chromium.md) |
 | iOS/iPadOS                    | [only Safari](safari.md)                             |
-| Android/Android TV/Meta Quest | [Kiwi Browser](kiwi-browser.md)                          |
+| Android/Android TV/Meta Quest | [Kiwi Browser](kiwi-browser.md)                      |
 
 ---
 ### Details

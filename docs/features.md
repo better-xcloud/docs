@@ -1,6 +1,6 @@
-![Settings UI](images/settings.png){ width="600" }
-
 ## Server
+
+![Server](images/settings/server.png)
 
 ### Set the region of streaming server
   - Connect to another server instead of the default one.  
@@ -16,6 +16,8 @@
 ---
 ## Stream
 
+![Stream](images/settings/stream.png)
+
 ### Set target resolution
   - By default you only get 1080p stream when playing on desktop. This feature can give you 1080p stream even on mobile, without having to change `User-Agent` value.  
 
@@ -23,6 +25,13 @@
   - Increase/decrease the quality of the stream to your liking. Only works in Chrome/Edge/Kiwi...  
   - Comparison video with the setting ON & OFF: https://youtu.be/-9PuBJJSgR4  
   - By default (for compatibility reasons) xCloud only uses high quality codec profile when you use Tizen TV or Chrome/Edge/Chromium browser on Chrome/MacOS. Enable this setting will give you the best experience no matter what platform & browser you're on.
+
+### 🛋️ Enable local co-op support
+  - Allow playing local co-op on xCloud and Remote Play
+  - Check [this page](local-co-op.md) for more info
+
+### 🎮 Fortnite: force console version
+  - Allow playing the `Save the World` mode on mobile
 
 ### Enable volume control feature
 !!! warning
@@ -36,6 +45,7 @@
 ### Hide mouse cursor on idle
   - Hide the mouse cursor after 3 seconds of not moving.  
 
+<!--
 ---
 ## Controller
 
@@ -48,9 +58,12 @@
   |---------------|------------------|
   | Home + RB     | Take screenshot  |
   | Home + Select | Toggle stats bar |
+-->
 
 ---
 ## Touch controller
+
+![Touch controller](images/settings/touch-controller.png)
 
 ### Availability
   - Only for devices with touch support (Android/iOS/iPadOS/...). Using "Desktop mode" in mobile browsers also disables this feature.  
@@ -73,6 +86,8 @@
 ---
 ## Mouse & Keyboard
 
+![MKB](images/settings/mkb.png)
+
 ### Enable Mouse & Keyboard support
 Allow you to play xCloud games with Mouse & Keyboard. Check [this page](mouse-and-keyboard.md) for more info.
 
@@ -81,6 +96,8 @@ Hide the mouse cursor after 3 seconds of not moving.
 
 ---
 ## Loading screen
+
+![Loading screen](images/settings/loading-screen.png)
 ![Loading screen](images/loading-screen.png)
 
 ### Show game art
@@ -97,6 +114,8 @@ Hide the mouse cursor after 3 seconds of not moving.
 
 ---
 ## UI
+
+![UI](images/settings/ui.png)
 
 ### Switch website's layout
   - Switch between default layout and Smart TV layout (without having to change `User-Agent`).  
@@ -116,6 +135,8 @@ Hide the mouse cursor after 3 seconds of not moving.
 ---
 ## Other  
 
+![other](images/settings/other.png)
+
 ### Disable social features
   - Features like friends, chat... Disable these will make the page load faster.  
 
@@ -126,6 +147,8 @@ Hide the mouse cursor after 3 seconds of not moving.
 
 ---
 ## Advanced features  
+
+![Advanced](images/settings/advanced.png)
 
 ### Change User-Agent
 !!! warning

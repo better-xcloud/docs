@@ -5,6 +5,7 @@ title: How to install Better xCloud on Chrome/Edge/Chromium
 # Install Better xCloud on Chrome/Edge/Chromium
 
 !!! note
+    - Use this method for desktop/latop devices, including macOS.
     - If you're on Android/Android TV/Meta Quest VR headsets, you'll need [Kiwi Browser](kiwi-browser.md) instead.
     - I only distribute **Better xCloud** on GitHub, *DO NOT* download it on other websites or from unknown sources.
 

@@ -4,8 +4,11 @@ title: How to install Better xCloud on Kiwi Browser
 
 # Install Better xCloud on Kiwi Browser
 
+!!! tip
+    - The [Android app](android.md) is available for testing. It's recommended over using Kiwi Browser.
+
 !!! note
-    - If you previously enabled the `Desktop site` setting in **Kiwi Browser** (for 1080p resolution) then you can disable it as you don't have to do that anymore.  
+    - Use this method for Android/Android TV/Meta Quest VR headsets.
     - I only distribute **Better xCloud** on GitHub, *DO NOT* download it on other websites or from unknown sources.
 
 1. Install **Kiwi Browser**
@@ -42,3 +45,11 @@ You must install **Better xCloud** as a script inside the **Tampermonkey extensi
 
 ![Incorrect install](images/kiwi-browser-incorrect.png)
 
+# Tips
+
+![Tips](images/kiwi-browser-tips.png)
+
+In **Kiwi Browser**'s menu:
+
+- Disable the "Desktop site" setting.
+- Use the "Add to Homescreen" feature to create a shortcut on the home screen that launchs xCloud as a full screen app.

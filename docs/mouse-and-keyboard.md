@@ -1,6 +1,5 @@
 !!! warning
     - Only works on deskop browsers, as Safari iOS & Chromium Android don't support the **Pointer Lock API**.  
-    - I would NOT RECOMMEND using this feature when playing online, as it can be considered cheating.  
     - Disable/Remove other Mouse & Keyboard extensions first (if any).  
 
 - 100% free.
@@ -8,6 +7,11 @@
 - Works with every games.
 - Key remapper & adjustable mouse sensitivities.
 - Multiple presets.
+
+## Disclaimer
+
+- Using this feature when playing online could be viewed as cheating (as it's basically the same as using XIM). You might get banned from the game if it has a mouse detection system.
+- This warning applies to all remapping softwares/extensions, not just **Better xCloud**. You don't see this warning in other softwares/extensions doesn't mean it's safe to use.
 
 ---
 ## How to use

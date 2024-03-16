@@ -3,7 +3,7 @@ GH_PAGE := better-xcloud.github.io
 
 .PHONY: deploy
 deploy:
-	cd $(GH_PAGE) && mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch main -d $(GH_PAGE)
+	cd $(GH_PAGE) && mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch main
 
 .PHONY: update-build-version
 update-build-version:

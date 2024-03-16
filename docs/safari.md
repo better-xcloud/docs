@@ -3,6 +3,13 @@ title: How to install Better xCloud on Safari macOS/iOS/iPadOS
 ---
 # Install Better xCloud on Safari macOS/iOS/iPadOS
 
+!!! note
+    - Use this method for iOS/iPadOS.
+    - On macOS, it's recommended to use **Better xCloud** with [Chrome/Edge browser](chromium.md) instead of Safari.
+    - I only distribute **Better xCloud** on GitHub, *DO NOT* download it on other websites or from unknown sources.
+
+**Better xCloud** allows you to bypass PWA requirements on iOS/iPadOS (including version 17.4).
+
 ## Main problem
 
 **Better xCloud** supports macOS, iOS, and iPadOS with Safari.

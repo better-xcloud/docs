@@ -1,5 +1,5 @@
 1. **Will I get banned for using this?**  
-I think it's very unlikely that you'll get banned for using this. Most of the features only affect client-side, except for switching region of streaming server (you'll connect to another server instead of the default one). If you want to be safe just avoid using that. As always, use it as your own risk.
+xCloud devs endorsed Better xCloud before and confirmed they ["don't ban people for using a third party client or extension"](https://old.reddit.com/r/xcloud/comments/1b5d4dl/new_better_xcloud_feature_play_local_coop_games/kt6w1wt/). As always, use it as your own risk.
 
 2. **Why is it an Userscript and not an extension?**  
 It's because not many browsers on Android/iOS support installing extensions (and not all extensions can be installed).
