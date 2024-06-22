@@ -1,5 +1,5 @@
 !!! warning
-    - Only works on deskop browsers, as Safari iOS & Chromium Android don't support the **Pointer Lock API**.  
+    - Only works on deskop browsers or [Android app](./android.md), as Safari iOS & Chromium Android don't support the **Pointer Lock API**.  
     - Disable/Remove other Mouse & Keyboard extensions first (if any).  
 
 - 100% free.
@@ -25,7 +25,7 @@
 
 - Press `Esc` to release the mouse cursor and stop emulating the controller.
 
-- Press `F9` to toggle this feature (no more `Click to activate` popup).
+- Press `F8` to toggle this feature (no more `Click to activate` popup).
 
 ---
 ## Remapper
@@ -39,7 +39,7 @@
 
 ### Keys
 - Reserved keys:
-    - `F9`
+    - `F8`
     - `Esc`
 - Right-click on a key to unbind it.
 - Supported mouse buttons:
@@ -51,7 +51,3 @@
     You may also need to adjust the in-game sensitivity & deadzone settings.
 
 - You can choose which analog stick the mouse is mapped to.
-- Deadzone counterweight
-  > Counteracts the game's built-in deadzone
-- Stick decay strength/minimum
-  > Decides how fast the analog stick's value will return to the center when the mouse is stopped moving (to simulate the effect of releasing the analog stick on the real controller)

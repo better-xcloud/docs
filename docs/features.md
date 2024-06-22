@@ -70,9 +70,6 @@
     - **Default**: nothing change.  
     - **Off**: stop the touch controller from showing when touching the screen. Useful when you play on a device with a built-in controller like Logitech G Cloud, Steam Deck, etc.  
     - **All games**: enable touch controller support for all games. Games with custom layout won't be affected.  
-  - Double-tap anywhere at the bottom of the screen to show/hide the controller. Useful when you're viewing cutscenes.  
-
-  ![Toggle touch controller](images/gifs/toggle-touch-controller.gif)
 
 ### Button styles
   ![Button styles](images/touch-controller-styles.png){ width="400" }

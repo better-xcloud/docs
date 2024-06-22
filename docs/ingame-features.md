@@ -35,16 +35,11 @@ Check [Mouse and Keyboard page](mouse-and-keyboard.md) for more details.
 ## Video
 ![Video settings](images/video-settings.png){ width="400" }
 
-### Improve stream's clarity
+### Clarity boost
 
-![Clarity](images/clarity-boost.png)
-*(click to enlarge)*
+Check [this page](clarity-boost.md) for more info.
 
-- Similar to the "Clarity Boost" of xCloud on Edge browser. [Demo video](https://youtu.be/ZhW2choAHUs).  
-- Affects the stream's performance, uses more battery, and may causes frames to drop (especially on lower-end devices).  
-- Only works with Chrome/Chromium browsers.  
-
-### Change video's ratio
+### Change video's aspect ratio
 Useful when you don't have a 16:9 screen
 
 ### Adjust video filters

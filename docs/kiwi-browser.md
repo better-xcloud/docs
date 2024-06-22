@@ -7,6 +7,10 @@ title: How to install Better xCloud on Kiwi Browser
 !!! tip
     - The [Android app](android.md) is available for testing. It's recommended over using Kiwi Browser.
 
+
+!!! warning
+    - If you're using Kiwi Browser 124.x, after installing, open Better xCloud's settings, and switch User-Agent profile to `Kiwi Browser v123`
+
 !!! note
     - Use this method for Android/Android TV/Meta Quest VR headsets.
     - I only distribute **Better xCloud** on GitHub, *DO NOT* download it on other websites or from unknown sources.
@@ -21,8 +25,10 @@ title: How to install Better xCloud on Kiwi Browser
 
 
 2. Install the **Tampermonkey extension**  
+    Kiwi Browser doesn't support Tampermonkey 5.2 or later (switched to Manifest v3) so you'll have to install an older version.
 
-    [:material-puzzle: Install **Tampermonkey**](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo){ class="md-button md-button--primary" target="_blank" }
+    1. Remove Tampermonkey 5.2 if you're using it.
+    2. Install [Tampermonkey Legacy (5.1.1)](https://chromewebstore.google.com/detail/tampermonkey-legacy/lcmhijbkigalmkeommnijlpobloojgfn).
 
 3. Install **Better xCloud** script  
 

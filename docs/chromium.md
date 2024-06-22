@@ -13,6 +13,9 @@ title: How to install Better xCloud on Chrome/Edge/Chromium
 
     [:material-puzzle: Install **Tampermonkey**](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo){ class="md-button md-button--primary" target="_blank" }
 
+    !!! important
+        - You may need to [enable Developer Mode](https://www.tampermonkey.net/faq.php?locale=en#Q209) in your browser, otherwise Tampermonkey may not work.
+
 2. Install **Better xCloud** script  
 
     [:material-download: Install **Better xCloud**](https://github.com/redphx/better-xcloud/releases/latest/download/better-xcloud.user.js){ class="md-button md-button--primary" target="_blank" }

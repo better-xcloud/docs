@@ -19,7 +19,9 @@ nav:
   - Features:
     - Features: features.md
     - In-game features: ingame-features.md
-    - Mouse & Keyboard: mouse-and-keyboard.md
+    - Clarity boost: clarity-boost.md
+    - Native Mouse & Keyboard: native-mouse-and-keyboard.md
+    - Emulated Mouse & Keyboard: mouse-and-keyboard.md
     - Local co-op: local-co-op.md
     - Remote Play: remote-play.md
     - Stream stats: stream-stats.md
