@@ -1,23 +1,28 @@
 ---
-title: Install Better xCloud app for Android
+title: How to install Better xCloud app for Android
 ---
+
+# How to install Better xCloud app for Android
 
 [![Latest version](https://img.shields.io/github/v/release/redphx/better-xcloud-android?label=latest)](https://github.com/redphx/better-xcloud-android/releases) 
 [![Total downloads](https://img.shields.io/github/downloads/redphx/better-xcloud-android/total?color=%23e15f2c)](https://github.com/redphx/better-xcloud-android/releases) 
 [![Total stars](https://img.shields.io/github/stars/redphx/better-xcloud-android?color=%23cca400)](https://github.com/redphx/better-xcloud-android/stargazers)  
 
-# Install Better xCloud app for Android
-
 !!! note  
     - This app is still in **early development**
-    - Use this method for Android/Android TV/Meta Quest VR headsets.
     - I only distribute Better xCloud on GitHub, DO NOT download it on other websites or from unknown sources.
-
-!!! important
-    - You're most likely to have problems with the stream if you're using a cheap device or a built-in Android TV. [Read more](https://github.com/redphx/better-xcloud-android/issues/41).
 
 This app is a web app with the Better xCloud userscript intergrated.  
 
+Support most devices running Android:  
+
+- Android phones/tablets  
+- Android TVs  
+- Amazon Fire TV Sticks
+- Meta Quest VR headsets  
+- ...
+
+### Features
 - Require Android 8.0 or later
 - Small size (< 10MB)
 - Still free and open-source (soon)
@@ -27,7 +32,7 @@ This app is a web app with the Better xCloud userscript intergrated.
 - Support custom userscript
 
 
-### Android app exclusive features:
+### Android app exclusive features
 - 🔥 [Support native Mouse & Keyboard](native-mouse-and-keyboard.md)
 - 🔥 [Support emulating controller with Mouse & Keyboard](mouse-and-keyboard.md)
 - Better device vibration support
@@ -35,25 +40,39 @@ This app is a web app with the Better xCloud userscript intergrated.
 
 The Android app doesn't support installing extensions. If you need this feature continue then using Kiwi Browser.
 
-# How to install
-1. Download the APK file and install
-    
+## How to install
+
+!!! warning
+    ⚠️ You're most likely to have problems with the stream if you're using a cheap phone or a cheap Android TV device. [Read more](faq.md#android-app). **This app doesn't support TCL Android TV!!!**  
+
+
+1. Download the APK file and install  
+
     [:material-download: Download on GitHub](https://github.com/redphx/better-xcloud-android/releases/latest){ class="md-button md-button--primary" target="_blank" }
 
+2. Sign in
 
-3. The app will download and install the userscript on first run
-
-4. Sign in
-
-5. Click on the new *< SERVER NAME >* button next to your profile picture to adjust the settings
+3. Click on the new *< SERVER NAME >* button next to your profile picture to adjust the settings
 
     ![Server button](images/server-button.png)
 
-6. Enjoy
+4. Enjoy
 
-7. [Report issue](https://github.com/redphx/better-xcloud-android/issues) if you found any
+5. Check the [**Troubleshooting**](#troubleshooting) section below if you have problem with the app
 
-# Screenshots
+
+## Troubleshooting
+1. There is a noticable audio delay when playing.  
+> Open App settings > Enable the `Force low-latency audio` setting > Restart app.
+
+2. The stream is stuttering, it's unplayable.  
+> Follow [this guide](guide/android-webview-tweaks.md) to improve the performance.
+
+
+## FAQ
+[Read here](faq.md#android-app)
+
+## Screenshots
 
 ![Home](images/android/home.png)  
 ![Script settings](images/android/script-settings.png)  

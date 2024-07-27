@@ -1,6 +1,11 @@
+!!! warning
+    This feature can't be used on mobile browsers
+
 Native Mouse & Keyboard is an official feature of xCloud, but currently it's only available on desktop browsers.  
 With [Better xCloud Android app](android.md) you can enjoy this feature on devices running Android too.  
-
+  
+To emulate controller using mouse & keyboard, check the [Virtual controller feature](mouse-and-keyboard.md).
+  
 ## Demo video
 [https://youtu.be/VgPG1Zu9ZEc](https://youtu.be/VgPG1Zu9ZEc)
 

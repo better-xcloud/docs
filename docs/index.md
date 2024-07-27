@@ -6,42 +6,129 @@
 Improve Xbox Cloud Gaming (xCloud) experience on [xbox.com/play](https://www.xbox.com/play).  
 It also allows you to use Remote Play on the xCloud website.
 
-- Windows, macOS, Linux, SteamOS (Steam Deck)  
-  [:material-google-chrome: Install on Chrome/Edge](chromium.md){ .md-button .md-button--primary }
+<div class="grid cards" markdown>
 
-- Android, Android TV, Meta Quest VR headsets  
-  [:material-android: Install Android app (Beta)](android.md){ .md-button .md-button--primary }  
-  or  
-  [:fontawesome-solid-kiwi-bird: Install on Kiwi Browser](kiwi-browser.md){ .md-button .md-button--primary }  
+-   :material-monitor: Windows, macOS, Linux, SteamOS (Steam Deck)  
 
-- iOS, iPadOS  
-  [:material-apple-safari: Install on Safari](safari.md){ .md-button .md-button--primary }
+    ---
+
+    [:material-google-chrome: Install on Chrome/Edge](chromium.md){ .md-button .md-button--primary }
+
+-   :material-android: Android, Android TV, Meta Quest VR headsets  
+
+    ---
+
+    [:material-android: Install Android app (Beta)](android.md){ .md-button .md-button--primary }  
+
+    or [install on Kiwi Browser](kiwi-browser.md)
+
+-   :material-apple: macOS, iOS, iPadOS  
+
+    ---
+    
+    [:material-apple-safari: Install on Safari](safari.md){ .md-button .md-button--primary }
+
+-   :material-television: LG TV  
+
+    ---
+    
+    [:material-web: Install on webOS 22+](lg-webos.md){ .md-button .md-button--primary }
+</div>
 
 [How to pick the best browser for your device](browsers.md)
 
 ### Third-party apps
-- Apple Vision Pro ([guide](https://gist.github.com/KhaosT/a4d90479e3cb0aae959ad55b08cd8358){ target="_blank" }, created by another dev [KhaosT](https://github.com/KhaosT){ target="_blank" })  
-  [:material-apple-safari: Install Nexus+](https://apps.apple.com/us/app/nexus/id6475538023){ class="md-button md-button--primary" target="_blank" }
+- [Nexus+](https://apps.apple.com/us/app/nexus/id6475538023) for Apple Vision Pro ([guide](https://gist.github.com/KhaosT/a4d90479e3cb0aae959ad55b08cd8358){ target="_blank" }, created by another dev [KhaosT](https://github.com/KhaosT){ target="_blank" })  
 
 
 ### Will I get banned for using this?
 No, it's safe to use. xCloud devs endorsed **Better xCloud** before and confirmed they ["don't ban people for using a third party client or extension"](https://old.reddit.com/r/xcloud/comments/1b5d4dl/new_better_xcloud_feature_play_local_coop_games/kt6w1wt/). As always, use it as your own risk.
 
-### Some highlights
-- Totally free and open-source
-- Ads-free and tracking-free (except trackers from the xCloud website, but you can disable those)
-- Don't send your Xbox token to another website
-- Enable 1080p resolution on all devices
-- [Improve visual quality](clarity-boost.md) of the stream (Clarity Boost)
-- Enable [local co-op support](local-co-op.md)
-- Allow playing [native Mouse & Keyboard](native-mouse-and-keyboard.md) games on Android
-- Allow playing with [Mouse & Keyboard](mouse-and-keyboard.md)
-- Enable [Remote Play](remote-play.md) support  
-- [Touch controller](features.md#touch-controller) for all games
-- [Custom touch controller layouts](https://github.com/redphx/better-xcloud/discussions/241) for non-touch supported games
-- Show [stream stats](stream-stats.md)  
-- [Screenshot capture](screenshot-capture.md)  
-- [And more...](features.md)
+### Key features
+
+<div class="grid cards" markdown>
+
+-   <font color="#8ef4ff">:material-open-source-initiative: Free and open-source</font>
+
+    ---
+
+    Totally free and open-source.  
+    Also ads-free and tracking-free (except trackers from the xCloud website, but you can disable those).
+
+-   <font color="#8ef4ff">:material-shield: Safe to use</font>
+
+    ---
+
+    Never send your Xbox account or token to another website.
+
+-   <font color="#8ef4ff">:material-microsoft-xbox: Remote Play support</font>
+
+    ---
+
+    Desipte its name, **Better xCloud** supports using Remote Play on **xbox.com/play** website at 1080p. You can even stream Xbox 360 games.
+
+    [:material-chevron-right: How to enable](remote-play.md)
+
+-   <font color="#8ef4ff">:material-quality-high: High visual quality</font>
+
+    ---
+
+    Enable 1080p resolution & high-quality codec profile on all devices (if supported).
+
+-   <font color="#8ef4ff">:fontawesome-solid-wand-magic-sparkles: Clarity boost</font>
+
+    ---
+
+    Use multiple methods to improve the visual quality of the stream to make it look clearer and sharper.
+
+    [:material-chevron-right: How to use](clarity-boost.md)
+
+-   <font color="#8ef4ff">:material-human-queue: Local co-op support</font>
+
+    ---
+
+    Allow playing some xCloud games locally.
+
+    [:material-chevron-right: How to enable](local-co-op.md)
+
+-   <font color="#8ef4ff">:material-keyboard: Mouse & Keyboard support</font>
+
+    ---
+
+    Allow playing with mouse & keyboard, either natively or virtually on desktop browsers and in Android app.
+
+    [:material-chevron-right: Native Mouse & Keyboard](native-mouse-and-keyboard.md)
+
+    [:material-chevron-right: Virtual controller](mouse-and-keyboard.md)
+
+-   <font color="#8ef4ff">:material-gesture-tap: Touch controller</font>
+
+    ---
+
+    Allow playing with touch controls in all games
+
+    [:material-chevron-right: How to enable](features.md#touch-controller)
+
+-   <font color="#8ef4ff">:material-gesture-tap: Custom touch controllers</font>
+
+    ---
+
+    Custom touch controller layouts for non-touch supported games
+
+    [:material-chevron-right: Supported games](https://github.com/redphx/better-xcloud/discussions/241)
+
+-   <font color="#8ef4ff">:material-camera: Taking stream's screenshot</font>
+
+    ---
+
+    Take screenshots of the stream with a single click.
+
+    [:material-chevron-right: How to use](screenshot-capture.md)
+
+
+</div>
+
+[And many more...](features.md)
 
 ### Screenshots (Android app)
 

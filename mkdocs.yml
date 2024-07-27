@@ -16,18 +16,22 @@ nav:
     - Chrome/Edge: chromium.md
     - Kiwi Browser: kiwi-browser.md
     - Safari: safari.md
+    - LG TV: lg-webos.md
   - Features:
     - Features: features.md
     - In-game features: ingame-features.md
     - Clarity boost: clarity-boost.md
     - Native Mouse & Keyboard: native-mouse-and-keyboard.md
-    - Emulated Mouse & Keyboard: mouse-and-keyboard.md
+    - Virtual controller: mouse-and-keyboard.md
     - Local co-op: local-co-op.md
     - Remote Play: remote-play.md
     - Stream stats: stream-stats.md
     - Screenshot capture: screenshot-capture.md
-  - ❤️ Donation: donation.md
   - FAQ: faq.md
+  - Guides:
+    - Android WebView tweaks: guide/android-webview-tweaks.md
+    - Switch Android WebView implementation: guide/android-webview-implementation.md
+  - ❤️ Donation: donation.md
   - Translators: translators.md
   - Acknowledgements: acknowledgements.md
 
@@ -60,3 +64,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+

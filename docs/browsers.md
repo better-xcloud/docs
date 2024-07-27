@@ -34,4 +34,3 @@ Don't see your browser in the table? If it supports *Tampermonkey/Userscript* th
 
 ---
 - **Kiwi Browser** is the best choice on Android. All features work, it means you can get 1080p stream + high-quality codec profile (the best possible quality).  
-- **Better xCloud** also works on Android TV, but you'll have to sideload the browser APK and need a Bluetooth mouse if you want to interact with the Settings.  

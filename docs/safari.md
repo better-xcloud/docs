@@ -28,7 +28,6 @@ That's why, on macOS, I *recommend* using Chrome/Edge browser + Tampermonkey ext
 - Extension only works in the browser. It's not available in PWA mode (the shortcut you created using "Add to Home Screen" prompt). Installing **Better xCloud** successfully will disable this prompt, allowing you to use it in the browser.    
 - Fullscreen mode is not available in the browser. You can only minimize the address bar.  
 - It doesn't support Mainline codec profile, which provides a higher quality stream than the default one (Baseline profile).  
-- The "Clarity" feature (increase sharpness) doesn't work in Safari.  
 - Battery badge doesn't work.
 
 If you want to have the best xCloud experience, play it on Android phone/tablet if possible.  

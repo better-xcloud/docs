@@ -7,10 +7,6 @@ title: How to install Better xCloud on Kiwi Browser
 !!! tip
     - The [Android app](android.md) is available for testing. It's recommended over using Kiwi Browser.
 
-
-!!! warning
-    - If you're using Kiwi Browser 124.x, after installing, open Better xCloud's settings, and switch User-Agent profile to `Kiwi Browser v123`
-
 !!! note
     - Use this method for Android/Android TV/Meta Quest VR headsets.
     - I only distribute **Better xCloud** on GitHub, *DO NOT* download it on other websites or from unknown sources.
