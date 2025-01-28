@@ -2,7 +2,7 @@ This feature improves the visual quality of the stream to make it look clearer a
 
 ### How to use
 
-![Clarity boost's settings](images/clarity-boost/settings.png){ width="400" }
+![Clarity boost's settings](images/settings/video-settings.png){ width="400" }
 
 !!! important
     Disable Edge's Clariy Boost feature first if you're using it.
@@ -13,15 +13,21 @@ This feature improves the visual quality of the stream to make it look clearer a
 
 ### Explain
 - Renderer: there are two options
-    - Default
-    - WebGL2: better performance + battery life
+    - `Default`: default renderer
+    - `WebGL2`: better performance + battery life
+
+- Renderer configuration
+    - `Default`: let the browser decide
+    - `Low power`: use less battery
+    - `High performance`: prioritize rendering performance over power consumption
+    - 📝 It's recommended to only use `Default` or `Low power`. Using `High performance` doesn't provide better visual image.
 
 - Clarity boost:
-    - Unsharp masking: simple and provides acceptable visual quality.
+    - Unsharp masking: simple and provides acceptable visual quality
     - AMD FidelityFX CAS: only available in WebGL2 renderer. This provides better visual quality than the Unsharp masking method.
 
 ### Which renderer to use?
 
-If your device supports it, using WebGL2 + AMD FidelityFX CAS will provide the best visual quality + better battery life (~30%).
+If your device supports it, using WebGL2 + AMD FidelityFX CAS will provide the best visual quality + better battery life (up to 30%).
 
 ![Clarity boost's comparisons](images/clarity-boost/comparisons.png)

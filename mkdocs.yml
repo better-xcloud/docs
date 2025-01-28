@@ -9,17 +9,17 @@ site_author: redphx
 site_description: a short description of your website
 
 nav:
-  - About: index.md
+  - Introduction: index.md
   - How to install:
+    - 'Which client to use?': clients.md
     - Android app: android.md
-    - Browsers: browsers.md
+    - Android browser: android-browser.md
     - Chrome/Edge: chromium.md
-    - Kiwi Browser: kiwi-browser.md
     - Safari: safari.md
     - LG TV: lg-webos.md
   - Features:
-    - Features: features.md
-    - In-game features: ingame-features.md
+    - Global settings: features.md
+    - Stream settings: ingame-features.md
     - Clarity boost: clarity-boost.md
     - Native Mouse & Keyboard: native-mouse-and-keyboard.md
     - Virtual controller: mouse-and-keyboard.md
@@ -27,13 +27,16 @@ nav:
     - Remote Play: remote-play.md
     - Stream stats: stream-stats.md
     - Screenshot capture: screenshot-capture.md
+  - Troubleshooting: troubleshooting.md
   - FAQ: faq.md
   - Guides:
     - Android WebView tweaks: guide/android-webview-tweaks.md
-    - Switch Android WebView implementation: guide/android-webview-implementation.md
+    # - Switch Android WebView implementation: guide/android-webview-implementation.md
+    - Nvidia SHIELD TV: guide/nvidia-shield-tv.md
   - ❤️ Donation: donation.md
-  - Translators: translators.md
-  - Acknowledgements: acknowledgements.md
+  - Acknowledgements:
+    - Acknowledgements: acknowledgements.md
+    - Translators: translators.md
 
 theme:
   name: material
@@ -43,6 +46,11 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
+    - navigation.expand
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
     - navigation.expand
 
 extra:
@@ -67,3 +75,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+plugins:
+  - redirects:
+      redirect_maps:
+        'browsers.md': clients.md
+        'kiwi-browser.md': android-browser.md

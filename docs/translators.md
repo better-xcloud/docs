@@ -10,13 +10,13 @@ Thanks to all these translators for helping this project:
 - **Indonesian**: [@fortifying](https://github.com/fortifying), satyamuafa6
 - **Italian**: [@piersandro](https://github.com/piersandro), Greenylie, Rakan129, Carza-104, graziequalcuno, DioCannabinoide, Mr_Nick, howtoc0d3
 - **Japanese**: Tak_attack, udonshi
-- **Portuguese (Brazilian)**: [@ricardo404](https://github.com/ricardo404), [@Haisom](https://github.com/Haisom), LucasG021, italorafael22062009, PotatoPTT, guilhermecursi, renatomaster01, andrefracopires, elisandromoraes555, tparavani, Jh0wn_, bimiquelin, SepiaMoon, iMaicon
+- **Portuguese (Brazilian)**: [@ricardo404](https://github.com/ricardo404), [@Haisom](https://github.com/Haisom), LucasG021, italorafael22062009, PotatoPTT, guilhermecursi, renatomaster01, andrefracopires, elisandromoraes555, tparavani, Jh0wn_, bimiquelin, SepiaMoon, iMaicon, Malu0510, LippyCruz, gustvtech
 - **Polish**: [@aleksishere](https://github.com/aleksishere), slajerek
-- **Russian**: anpom6, soophik, Ferret, aforned, shaheraghwat, davidprotsiuk10, Zalm14
+- **Russian**: anpom6, soophik, Ferret, aforned, shaheraghwat, davidprotsiuk10, Zalm14, b13_jiechuk
 - **Spanish**: [@PabloSebas](https://github.com/PabloSebas), hectorevil, csvnchzn, pablocjs2812, blue89bravo
 - **Thai**: pawattoto, vaniaaraujo773  
 - **Turkish**: yildirimlara, [@transbebek](https://github.com/transbebek), ogulcanbayram
-- **Ukrainian**: weapon_scar, btnc_ua, fawkespc, glebanych
+- **Ukrainian**: weapon_scar, btnc_ua, fawkespc, glebanych, taras_teamproject
 - **Vietnamese**: [@redphx](https://github.com/redphx)
 
 Visit [here](https://crowdin.com/project/better-xcloud) if you want to translate **Better xCloud** to more languages.  

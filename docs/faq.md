@@ -38,13 +38,13 @@
 5. **Will there be a native app for Android or Android TV?**  
 > No, it will take a lot of time, so I don't plan to.  
 
-6. **Why can I play normally with Kiwi Browser but not with the Better xCloud app?**  
-> Kiwi Browser uses *Chrome rendering model*, meanwhile Better xCloud app uses *WebView rendering model*, and this one has worse performance due to the way it was designed. Read more about it [here](https://issues.chromium.org/issues/40817676#comment65).
+6. **Why can I play normally with Edge Browser but not with the Better xCloud app?**  
+> Edge Browser uses *Chrome rendering model*, meanwhile Better xCloud app uses *WebView rendering model*, and this one has worse performance due to the way it was designed. Read more about it [here](https://issues.chromium.org/issues/40817676#comment65).
 
 7. **Anything I can do do improve the performance?**  
 > - Follow [this guide](guide/android-webview-tweaks.md) to tweak the performance.  
 > - Limit maximum bitrate.  
 > - Lower resolution + visual quality.  
-> - Switch to Kiwi Browser.  
+> - Switch to Edge Browser.  
 >
 > If none of these method works then there is no help. Buy a better device.

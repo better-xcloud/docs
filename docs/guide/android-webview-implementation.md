@@ -7,7 +7,7 @@ title: How to switch Android WebView implementation
 !!! note
     - This change only applies to the Better xCloud app. Your device still uses the default WebView implementation.
     - Not all browsers can be selectable. If you don't see it in the list, it means that browser/version isn't supported.
-    - If the app crashes on startup, open it again for a few more times and it will open the Settings so you can change the WebView.
+    - If Better xCloud app crashes after changing the WebView implementation, maybe you installed 64-bit version on a 32-bit device. Uninstall the 64-bit version and re-install the 32-bit one.
 
 Make sure you're using the latest version of Better xCloud app.
 

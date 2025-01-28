@@ -7,17 +7,33 @@
 
 ## Set up Remote Play on Xbox
 
-1. Follow this [official guide](https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/how-to-set-up-remote-play) to enable the Remote Play feature on your Xbox.  
+1. Setup static IP address on the console:
+    - Settings > Network settings > Advanced settings
+    - Note down IP address, Subnet Mask, Gateway, and DNS values
+    - Click on IP settings > Static > enter the values you noted in previous step
+    - Save
 
-2. Setup [port-forwarding](https://support.xbox.com/en-US/help/hardware-network/connect-network/network-ports-used-xbox-live) on your network.  
+2. Follow this [official guide](https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/how-to-set-up-remote-play) to enable the Remote Play feature on your Xbox.  
 
-3. Make sure your Xbox have "Open NAT" status.  
+3. Setup [port-forwarding](https://support.xbox.com/en-US/help/hardware-network/connect-network/network-ports-used-xbox-live) on your network.  
 
-4. To use Remote Play when not using the home network, open these additional ports (both TCP & UDP, just in case):  
+4. Make sure your Xbox have "Open NAT" status.  
+
+!!! note
+    To use Remote Play when not using the network as the console, open these additional ports (both TCP & UDP, just in case):  
+
     - 4838
     - 5050
-    - 9002
+    - **9002** (this one is a must)
     - 50302
+
+    Another options: do one of these methods if your router supports it  
+    
+    - Enable IPv6
+    - Setup [Tailscale](https://tailscale.com/)
+
+    If it still doesn't work, check with your internet provider.  
+    These is nothing else I can help. It's not a bug, don't report it. 
 
 ## Enable the Remote Play feature in Better xCloud
 1. Open Better xCloud's settings.

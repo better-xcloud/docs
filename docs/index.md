@@ -20,7 +20,7 @@ It also allows you to use Remote Play on the xCloud website.
 
     [:material-android: Install Android app (Beta)](android.md){ .md-button .md-button--primary }  
 
-    or [install on Kiwi Browser](kiwi-browser.md)
+    or [install on Edge Browser](android-browser.md)
 
 -   :material-apple: macOS, iOS, iPadOS  
 
@@ -35,7 +35,7 @@ It also allows you to use Remote Play on the xCloud website.
     [:material-web: Install on webOS 22+](lg-webos.md){ .md-button .md-button--primary }
 </div>
 
-[How to pick the best browser for your device](browsers.md)
+[How to pick the best client for your device](clients.md)
 
 ### Third-party apps
 - [Nexus+](https://apps.apple.com/us/app/nexus/id6475538023) for Apple Vision Pro ([guide](https://gist.github.com/KhaosT/a4d90479e3cb0aae959ad55b08cd8358){ target="_blank" }, created by another dev [KhaosT](https://github.com/KhaosT){ target="_blank" })  

@@ -9,7 +9,6 @@ title: How to install Better xCloud app for Android
 [![Total stars](https://img.shields.io/github/stars/redphx/better-xcloud-android?color=%23cca400)](https://github.com/redphx/better-xcloud-android/stargazers)  
 
 !!! note  
-    - This app is still in **early development**
     - I only distribute Better xCloud on GitHub, DO NOT download it on other websites or from unknown sources.
 
 This app is a web app with the Better xCloud userscript intergrated.  
@@ -18,7 +17,7 @@ Support most devices running Android:
 
 - Android phones/tablets  
 - Android TVs  
-- Amazon Fire TV Sticks
+- Amazon Fire TV Stick 4K/4K Max
 - Meta Quest VR headsets  
 - ...
 
@@ -38,12 +37,13 @@ Support most devices running Android:
 - Better device vibration support
 - Limits screen's refresh rate to 60Hz to save battery life
 
-The Android app doesn't support installing extensions. If you need this feature continue then using Kiwi Browser.
+The Android app doesn't support installing extensions. If you need this feature, use [Edge Browser](android-browser.md) instead.
 
 ## How to install
 
 !!! warning
-    ⚠️ You're most likely to have problems with the stream if you're using a cheap phone or a cheap Android TV device. [Read more](faq.md#android-app). **This app doesn't support TCL Android TV!!!**  
+    ⚠️ You're most likely to have problems with the stream if you're using a cheap phone or a cheap Android TV device. [Read more](faq.md#android-app).  
+    In that case, use [Edge Browser](android-browser.md) instead.
 
 
 1. Download the APK file and install  
@@ -62,10 +62,8 @@ The Android app doesn't support installing extensions. If you need this feature 
 
 
 ## Troubleshooting
-1. There is a noticable audio delay when playing.  
-> Open App settings > Enable the `Force low-latency audio` setting > Restart app.
 
-2. The stream is stuttering, it's unplayable.  
+1. The stream is stuttering, it's unplayable.  
 > Follow [this guide](guide/android-webview-tweaks.md) to improve the performance.
 
 

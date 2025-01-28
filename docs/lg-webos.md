@@ -15,7 +15,7 @@ title: How to install Better xCloud on LG TV (webOS)
 ### How to install & use
 1. Enable `Developer Mode` on your TV by following [this guide](https://www.webosbrew.org/devmode/) (no root needed).  
 2. Install [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop) app on your PC.  
-3. Use the **webOS Dev Manager** app to install **Homebrew Channel** and **Better xCloud** apps.  
+3. Download [Better xCloud Lite](https://github.com/redphx/better-xcloud-tv/issues/10) and use the **webOS Dev Manager** app to install.  
 4. Open the **Better xCloud** app, log in and enjoy.  
 
 ### Having issue?  

@@ -1,49 +1,86 @@
+!!! note
+    Settings in this page only go into effect on the next page load
+
+Check [Stream settings](ingame-features.md) for settings that can be changed while playing.
+
+## General
+
+#### Language
+
+  - Set the language of Better xCloud
+
+#### Bypass region restriction
+
+??? warning
+    Use this at your own risk! It has the same risk as using VPN.
+
+  - Allow playing Xbox Cloud Gaming in unsupported regions without having to use VPN
+
+#### Controller-friendly UI
+
+  - Make it easier to interact with the UI using only controller, keyboard or remote control
+
+#### Enable the "Remote Play" feature
+  - Allow using Remote Play on the website
+  - [Learn more](remote-play.md)
+
+---
 ## Server
 
-![Server](images/settings/server.png)
+#### Region
+  - Allow connecting to another server instead of the default one
+  - It's not using VPN
 
-### Set the region of streaming server
-  - Connect to another server instead of the default one.  
-  - It's not using VPN.  
-  - ["Will I get banned for using this?"](faq.md)  
+#### Preferred game's language
+  - Allow setting the default language of the game
+  - If the game doesn't support this language, it will use the language set by the server
 
-### Preferred game's language
-  - If the game doesn't support this language, it will use the same language as xCloud's website.  
-
-### Prefer IPv6 server
-  - Might reduce latency.
+#### Prefer IPv6 server
+  - Might reduce latency
 
 ---
 ## Stream
 
-![Stream](images/settings/stream.png)
+#### Target resolution
+  - Set the resolution of the stream
 
-### Set target resolution
-  - By default you only get 1080p stream when playing on desktop. This feature can give you 1080p stream even on mobile, without having to change `User-Agent` value.  
+#### Change visual quality
+  - Increase/decrease the quality of the stream to your liking
 
-### Change visual quality
-  - Increase/decrease the quality of the stream to your liking. Only works in Chrome/Edge/Kiwi...  
-  - Comparison video with the setting ON & OFF: https://youtu.be/-9PuBJJSgR4  
-  - By default (for compatibility reasons) xCloud only uses high quality codec profile when you use Tizen TV or Chrome/Edge/Chromium browser on Chrome/MacOS. Enable this setting will give you the best experience no matter what platform & browser you're on.
+#### Maximum video bitrate
+??? note
+    Don't use this feature unless you want to limit the bitrate  
 
-### 🛋️ Enable local co-op support
-  - Allow playing local co-op on xCloud and Remote Play
-  - Check [this page](local-co-op.md) for more info
+  - Set the preferred maximum bitrate of the video stream
+  - It's normal (not a bug) if the real bitrate is sometime higher than this value.
 
-### 🎮 Fortnite: force console version
-  - Allow playing the `Save the World` mode on mobile
+#### Enable volume control feature
+  - Allow boosting the stream's volume up to 600%  
 
-### Enable volume control feature
-!!! warning
-    Disable this setting if you experience slowdown, choppy/muted stream  
+#### Disable post-stream feedback dialog
+  - *Self explanatory*
 
-  - Allow increasing stream's volume up to 600%  
+#### Apply video filters to screenshot
+  - Screenshots will be captured with filters applied (brightness/contrast/...)
 
-### Enable microphone on game launch
+#### Enable microphone on game launch
   - Automatically enable the mic when starting to play a game.  
 
-### Hide mouse cursor on idle
-  - Hide the mouse cursor after 3 seconds of not moving.  
+#### 🎮 Fortnite: force console version
+  - Allow playing the `Save the World` mode on mobile
+
+---
+## Game Bar
+
+#### Position
+  - Position of the Game Bar on the screen
+
+---
+## Local co-op
+
+#### Enable local co-op support
+  - Allow playing some co-op games locally
+  - [Learn more](local-co-op.md)
 
 <!--
 ---
@@ -61,96 +98,99 @@
 -->
 
 ---
+## Mouse & Keyboard
+
+#### Native Mouse & Keyboard
+  - This feature is only available on Chrome/Edge/Chromium browsers on desktop and [Better xCloud Android app](android.md)
+
+### Emulate controller with Mouse & Keyboard  
+  - Allow playing xCloud games with Mouse & Keyboard
+  - [Learn more](mouse-and-keyboard.md)
+
+### Hide cursor on idle
+Hide the mouse cursor after 3 seconds of not moving.
+
+---
 ## Touch controller
 
-![Touch controller](images/settings/touch-controller.png)
+#### Availability
+  - Only for devices with touch support (Android/iOS/iPadOS/...).  
+  - Using `Desktop mode` in mobile browsers also disables this feature.  
 
-### Availability
-  - Only for devices with touch support (Android/iOS/iPadOS/...). Using "Desktop mode" in mobile browsers also disables this feature.  
     - **Default**: nothing change.  
-    - **Off**: stop the touch controller from showing when touching the screen. Useful when you play on a device with a built-in controller like Logitech G Cloud, Steam Deck, etc.  
     - **All games**: enable touch controller support for all games. Games with custom layout won't be affected.  
+    - **Off**: stop the touch controller from showing when touching the screen. Useful when you play on a device with a built-in controller like Logitech G Cloud, Steam Deck, etc.  
 
-### Button styles
+#### Button styles
   ![Button styles](images/touch-controller-styles.png){ width="400" }
 
   - Default  
   - Muted  
   - All white (only for standard/default controller)  
 
-### [Custom touch controller layouts](https://github.com/redphx/better-xcloud/discussions/241) for non-touch supported games
-
----
-## Mouse & Keyboard
-
-![MKB](images/settings/mkb.png)
-
-### Enable Mouse & Keyboard support
-Allow you to play xCloud games with Mouse & Keyboard. Check [this page](mouse-and-keyboard.md) for more info.
-
-### Hide cursor on idle
-Hide the mouse cursor after 3 seconds of not moving.
+#### [Custom touch controller layouts](https://github.com/redphx/better-xcloud/discussions/241) for non-touch supported games
 
 ---
 ## Loading screen
 
-![Loading screen](images/settings/loading-screen.png)
-![Loading screen](images/loading-screen.png)
-
-### Show game art
+#### Show game art
   - Replace the black background with game art if it's available.  
 
-### Show the estimated wait time
-  - The time is estimated by the server.  
-  - It's not 100% correct: you might get in the game sooner or later.  
-  - Check [#51](https://github.com/redphx/better-xcloud/issues/51) for more info.  
+#### Show the estimated wait time
+  - The time is estimated by the server
+  - It's not 100% correct: you might get in the game sooner or later
 
-### Show/hide the rocket animation
-  - Always show/Hide when queuing/Always hide.  
-  - Hide this animation might save some battery life while queuing.  
+#### Rocket animation
+  - Always show/Hide when queuing/Always hide. 
+  - Hide this animation might save some battery life while queuing  
 
 ---
 ## UI
 
-![UI](images/settings/ui.png)
-
-### Switch website's layout
+#### Layout
   - Switch between default layout and Smart TV layout (without having to change `User-Agent`).  
 
-### Simplify Stream's menu
+#### Show wait time in game card
+  - Show the current wait time of the game after 1 second
+
+![other](images/gifs/game-card-wait-time.gif)
+
+#### Show controller connection status
+  - Show/hide the toast message when a controller is connected/disconnected
+
+#### Simplify Stream's menu
   - Hide the labels of the menu buttons.  
 
-### Skip Xbox splash video
+#### Skip Xbox splash video
   - Save 3 seconds.
 
-### Hide System menu's icon
-  - You can still click on it, but it doesn't block the screen anymore.
+#### Hide System menu's icon  
+  - System menu is the menu bar with the dots icon as a handle when playing
+  - You can still click on it, but it doesn't block the screen anymore
 
-### Reduce UI animations
+#### Reduce UI animations
   - Disable `transition` CSS property in some elements.
+
+#### Disable social features
+  - Features like friends, chat...
+  - Disable these will make the page load faster
+
+#### Hide sections
+  - Allow removing some sections on the home screen
 
 ---
 ## Other  
 
-![other](images/settings/other.png)
-
-### Disable social features
-  - Features like friends, chat... Disable these will make the page load faster.  
-
-### Disable xCloud analytics
+#### Disable xCloud analytics
   - The analytics contains statistics of your streaming session, so I'd recommend allowing analytics to help Xbox improve xCloud's experience in the future.
 
-### Hide footer and other UI elements (always on)
 
 ---
 ## Advanced features  
 
-![Advanced](images/settings/advanced.png)
+#### User-Agent
+??? warning
+    99% of the time you don't need to use this feature anymore. Don't use it unless you're absolutely have to.
 
-### Change User-Agent
-!!! warning
-    99% of the time you don't need to use this feature anymore.
-
-  - Useful when you're using unsupported browsers.  
-  - This setting only affects xCloud, and it doesn't change browser's global User-Agent.  
-  - 📝 If you get 404 error after using this feature, try refreshing the page a few times. See [#34](https://github.com/redphx/better-xcloud/issues/34).  
+  - Useful when you're using unsupported browsers.
+  - This setting only affects xCloud, and it doesn't change browser's global User-Agent.
