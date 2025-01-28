@@ -1,0 +1,2387 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="a short description of your website">
+      
+      
+        <meta name="author" content="redphx">
+      
+      
+        <link rel="canonical" href="https://better-xcloud.github.io/features/">
+      
+      
+        <link rel="prev" href="../lg-webos/">
+      
+      
+        <link rel="next" href="../ingame-features/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Global settings - Better xCloud</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#general" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Better xCloud" class="md-header__button md-logo" aria-label="Better xCloud" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Better xCloud
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Global settings
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/redphx/better-xcloud" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Better xCloud
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../clients/" class="md-tabs__link">
+          
+  
+  How to install
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Features
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../troubleshooting/" class="md-tabs__link">
+        
+  
+    
+  
+  Troubleshooting
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../faq/" class="md-tabs__link">
+        
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../guide/android-webview-tweaks/" class="md-tabs__link">
+          
+  
+  Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../donation/" class="md-tabs__link">
+        
+  
+    
+  
+  ❤️ Donation
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../acknowledgements/" class="md-tabs__link">
+          
+  
+  Acknowledgements
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Better xCloud" class="md-nav__button md-logo" aria-label="Better xCloud" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Better xCloud
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/redphx/better-xcloud" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Better xCloud
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    How to install
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            How to install
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clients/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Which client to use?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../android/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Android app
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../android-browser/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Android browser
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chromium/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chrome/Edge
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../safari/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Safari
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lg-webos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LG TV
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Features
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Features
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Global settings
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Global settings
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#language" class="md-nav__link">
+    <span class="md-ellipsis">
+      Language
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bypass-region-restriction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bypass region restriction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controller-friendly-ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controller-friendly UI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-the-remote-play-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable the "Remote Play" feature
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Server
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Server">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#region" class="md-nav__link">
+    <span class="md-ellipsis">
+      Region
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preferred-games-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preferred game's language
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prefer-ipv6-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prefer IPv6 server
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stream" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stream
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stream">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#target-resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Target resolution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-visual-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change visual quality
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maximum-video-bitrate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maximum video bitrate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-volume-control-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable volume control feature
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-post-stream-feedback-dialog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable post-stream feedback dialog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply-video-filters-to-screenshot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Apply video filters to screenshot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-microphone-on-game-launch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable microphone on game launch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fortnite-force-console-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎮 Fortnite: force console version
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Game Bar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Game Bar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#position" class="md-nav__link">
+    <span class="md-ellipsis">
+      Position
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-co-op" class="md-nav__link">
+    <span class="md-ellipsis">
+      Local co-op
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Local co-op">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enable-local-co-op-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable local co-op support
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mouse-keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mouse &amp; Keyboard
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mouse & Keyboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#native-mouse-keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Native Mouse &amp; Keyboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emulate-controller-with-mouse-keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emulate controller with Mouse &amp; Keyboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hide-cursor-on-idle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hide cursor on idle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#touch-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Touch controller
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Touch controller">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Availability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#button-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Button styles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-touch-controller-layouts-for-non-touch-supported-games" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom touch controller layouts for non-touch supported games
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loading-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loading screen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Loading screen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#show-game-art" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show game art
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-the-estimated-wait-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show the estimated wait time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rocket-animation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rocket animation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      UI
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Layout
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-wait-time-in-game-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show wait time in game card
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-controller-connection-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show controller connection status
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simplify-streams-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Simplify Stream's menu
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skip-xbox-splash-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skip Xbox splash video
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hide-system-menus-icon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hide System menu's icon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reduce-ui-animations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reduce UI animations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-social-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable social features
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hide-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hide sections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#disable-xcloud-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable xCloud analytics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      User-Agent
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ingame-features/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stream settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clarity-boost/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clarity boost
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../native-mouse-and-keyboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Native Mouse & Keyboard
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mouse-and-keyboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Virtual controller
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../local-co-op/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Local co-op
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remote-play/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Remote Play
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stream-stats/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stream stats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../screenshot-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Screenshot capture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide/android-webview-tweaks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Android WebView tweaks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide/nvidia-shield-tv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nvidia SHIELD TV
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../donation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❤️ Donation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Acknowledgements
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Acknowledgements
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../acknowledgements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acknowledgements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translators/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Translators
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#language" class="md-nav__link">
+    <span class="md-ellipsis">
+      Language
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bypass-region-restriction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bypass region restriction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controller-friendly-ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controller-friendly UI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-the-remote-play-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable the "Remote Play" feature
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Server
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Server">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#region" class="md-nav__link">
+    <span class="md-ellipsis">
+      Region
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preferred-games-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preferred game's language
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prefer-ipv6-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prefer IPv6 server
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stream" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stream
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stream">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#target-resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Target resolution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-visual-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Change visual quality
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maximum-video-bitrate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maximum video bitrate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-volume-control-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable volume control feature
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-post-stream-feedback-dialog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable post-stream feedback dialog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apply-video-filters-to-screenshot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Apply video filters to screenshot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-microphone-on-game-launch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable microphone on game launch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fortnite-force-console-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎮 Fortnite: force console version
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Game Bar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Game Bar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#position" class="md-nav__link">
+    <span class="md-ellipsis">
+      Position
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-co-op" class="md-nav__link">
+    <span class="md-ellipsis">
+      Local co-op
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Local co-op">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enable-local-co-op-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable local co-op support
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mouse-keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mouse &amp; Keyboard
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mouse & Keyboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#native-mouse-keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Native Mouse &amp; Keyboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emulate-controller-with-mouse-keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emulate controller with Mouse &amp; Keyboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hide-cursor-on-idle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hide cursor on idle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#touch-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Touch controller
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Touch controller">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Availability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#button-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Button styles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-touch-controller-layouts-for-non-touch-supported-games" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom touch controller layouts for non-touch supported games
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loading-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loading screen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Loading screen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#show-game-art" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show game art
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-the-estimated-wait-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show the estimated wait time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rocket-animation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rocket animation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      UI
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Layout
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-wait-time-in-game-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show wait time in game card
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-controller-connection-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show controller connection status
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simplify-streams-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Simplify Stream's menu
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skip-xbox-splash-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skip Xbox splash video
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hide-system-menus-icon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hide System menu's icon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reduce-ui-animations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reduce UI animations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-social-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable social features
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hide-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hide sections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#disable-xcloud-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable xCloud analytics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      User-Agent
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Global settings</h1>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Settings in this page only go into effect on the next page load</p>
+</div>
+<p>Check <a href="../ingame-features/">Stream settings</a> for settings that can be changed while playing.</p>
+<h2 id="general">General</h2>
+<h4 id="language">Language</h4>
+<ul>
+<li>Set the language of Better xCloud</li>
+</ul>
+<h4 id="bypass-region-restriction">Bypass region restriction</h4>
+<details class="warning">
+<summary>Warning</summary>
+<p>Use this at your own risk! It has the same risk as using VPN.</p>
+</details>
+<ul>
+<li>Allow playing Xbox Cloud Gaming in unsupported regions without having to use VPN</li>
+</ul>
+<h4 id="controller-friendly-ui">Controller-friendly UI</h4>
+<ul>
+<li>Make it easier to interact with the UI using only controller, keyboard or remote control</li>
+</ul>
+<h4 id="enable-the-remote-play-feature">Enable the "Remote Play" feature</h4>
+<ul>
+<li>Allow using Remote Play on the website</li>
+<li><a href="../remote-play/">Learn more</a></li>
+</ul>
+<hr />
+<h2 id="server">Server</h2>
+<h4 id="region">Region</h4>
+<ul>
+<li>Allow connecting to another server instead of the default one</li>
+<li>It's not using VPN</li>
+</ul>
+<h4 id="preferred-games-language">Preferred game's language</h4>
+<ul>
+<li>Allow setting the default language of the game</li>
+<li>If the game doesn't support this language, it will use the language set by the server</li>
+</ul>
+<h4 id="prefer-ipv6-server">Prefer IPv6 server</h4>
+<ul>
+<li>Might reduce latency</li>
+</ul>
+<hr />
+<h2 id="stream">Stream</h2>
+<h4 id="target-resolution">Target resolution</h4>
+<ul>
+<li>Set the resolution of the stream</li>
+</ul>
+<h4 id="change-visual-quality">Change visual quality</h4>
+<ul>
+<li>Increase/decrease the quality of the stream to your liking</li>
+</ul>
+<h4 id="maximum-video-bitrate">Maximum video bitrate</h4>
+<details class="note">
+<summary>Note</summary>
+<p>Don't use this feature unless you want to limit the bitrate  </p>
+</details>
+<ul>
+<li>Set the preferred maximum bitrate of the video stream</li>
+<li>It's normal (not a bug) if the real bitrate is sometime higher than this value.</li>
+</ul>
+<h4 id="enable-volume-control-feature">Enable volume control feature</h4>
+<ul>
+<li>Allow boosting the stream's volume up to 600%  </li>
+</ul>
+<h4 id="disable-post-stream-feedback-dialog">Disable post-stream feedback dialog</h4>
+<ul>
+<li><em>Self explanatory</em></li>
+</ul>
+<h4 id="apply-video-filters-to-screenshot">Apply video filters to screenshot</h4>
+<ul>
+<li>Screenshots will be captured with filters applied (brightness/contrast/...)</li>
+</ul>
+<h4 id="enable-microphone-on-game-launch">Enable microphone on game launch</h4>
+<ul>
+<li>Automatically enable the mic when starting to play a game.  </li>
+</ul>
+<h4 id="fortnite-force-console-version">🎮 Fortnite: force console version</h4>
+<ul>
+<li>Allow playing the <code>Save the World</code> mode on mobile</li>
+</ul>
+<hr />
+<h2 id="game-bar">Game Bar</h2>
+<h4 id="position">Position</h4>
+<ul>
+<li>Position of the Game Bar on the screen</li>
+</ul>
+<hr />
+<h2 id="local-co-op">Local co-op</h2>
+<h4 id="enable-local-co-op-support">Enable local co-op support</h4>
+<ul>
+<li>Allow playing some co-op games locally</li>
+<li><a href="../local-co-op/">Learn more</a></li>
+</ul>
+<!--
+---
+## Controller
+
+### Enable controller shortcuts  
+  - `Home` is  the button which activates the Xbox sidebar menu (similar to the Xbox/Nexus button on the official controller).  
+  - Not all controllers have this button. It's the `B16` button on the [Gamepad Tester site](https://hardwaretester.com/gamepad).  
+  - More shortcuts will be added later.
+
+  | Shortcut      | Action           |
+  |---------------|------------------|
+  | Home + RB     | Take screenshot  |
+  | Home + Select | Toggle stats bar |
+-->
+
+<hr />
+<h2 id="mouse-keyboard">Mouse &amp; Keyboard</h2>
+<h4 id="native-mouse-keyboard">Native Mouse &amp; Keyboard</h4>
+<ul>
+<li>This feature is only available on Chrome/Edge/Chromium browsers on desktop and <a href="../android/">Better xCloud Android app</a></li>
+</ul>
+<h3 id="emulate-controller-with-mouse-keyboard">Emulate controller with Mouse &amp; Keyboard</h3>
+<ul>
+<li>Allow playing xCloud games with Mouse &amp; Keyboard</li>
+<li><a href="../mouse-and-keyboard/">Learn more</a></li>
+</ul>
+<h3 id="hide-cursor-on-idle">Hide cursor on idle</h3>
+<p>Hide the mouse cursor after 3 seconds of not moving.</p>
+<hr />
+<h2 id="touch-controller">Touch controller</h2>
+<h4 id="availability">Availability</h4>
+<ul>
+<li>Only for devices with touch support (Android/iOS/iPadOS/...).  </li>
+<li>
+<p>Using <code>Desktop mode</code> in mobile browsers also disables this feature.  </p>
+<ul>
+<li><strong>Default</strong>: nothing change.  </li>
+<li><strong>All games</strong>: enable touch controller support for all games. Games with custom layout won't be affected.  </li>
+<li><strong>Off</strong>: stop the touch controller from showing when touching the screen. Useful when you play on a device with a built-in controller like Logitech G Cloud, Steam Deck, etc.  </li>
+</ul>
+</li>
+</ul>
+<h4 id="button-styles">Button styles</h4>
+<p><img alt="Button styles" src="../images/touch-controller-styles.png" width="400" /></p>
+<ul>
+<li>Default  </li>
+<li>Muted  </li>
+<li>All white (only for standard/default controller)  </li>
+</ul>
+<h4 id="custom-touch-controller-layouts-for-non-touch-supported-games"><a href="https://github.com/redphx/better-xcloud/discussions/241">Custom touch controller layouts</a> for non-touch supported games</h4>
+<hr />
+<h2 id="loading-screen">Loading screen</h2>
+<h4 id="show-game-art">Show game art</h4>
+<ul>
+<li>Replace the black background with game art if it's available.  </li>
+</ul>
+<h4 id="show-the-estimated-wait-time">Show the estimated wait time</h4>
+<ul>
+<li>The time is estimated by the server</li>
+<li>It's not 100% correct: you might get in the game sooner or later</li>
+</ul>
+<h4 id="rocket-animation">Rocket animation</h4>
+<ul>
+<li>Always show/Hide when queuing/Always hide. </li>
+<li>Hide this animation might save some battery life while queuing  </li>
+</ul>
+<hr />
+<h2 id="ui">UI</h2>
+<h4 id="layout">Layout</h4>
+<ul>
+<li>Switch between default layout and Smart TV layout (without having to change <code>User-Agent</code>).  </li>
+</ul>
+<h4 id="show-wait-time-in-game-card">Show wait time in game card</h4>
+<ul>
+<li>Show the current wait time of the game after 1 second</li>
+</ul>
+<p><img alt="other" src="../images/gifs/game-card-wait-time.gif" /></p>
+<h4 id="show-controller-connection-status">Show controller connection status</h4>
+<ul>
+<li>Show/hide the toast message when a controller is connected/disconnected</li>
+</ul>
+<h4 id="simplify-streams-menu">Simplify Stream's menu</h4>
+<ul>
+<li>Hide the labels of the menu buttons.  </li>
+</ul>
+<h4 id="skip-xbox-splash-video">Skip Xbox splash video</h4>
+<ul>
+<li>Save 3 seconds.</li>
+</ul>
+<h4 id="hide-system-menus-icon">Hide System menu's icon</h4>
+<ul>
+<li>System menu is the menu bar with the dots icon as a handle when playing</li>
+<li>You can still click on it, but it doesn't block the screen anymore</li>
+</ul>
+<h4 id="reduce-ui-animations">Reduce UI animations</h4>
+<ul>
+<li>Disable <code>transition</code> CSS property in some elements.</li>
+</ul>
+<h4 id="disable-social-features">Disable social features</h4>
+<ul>
+<li>Features like friends, chat...</li>
+<li>Disable these will make the page load faster</li>
+</ul>
+<h4 id="hide-sections">Hide sections</h4>
+<ul>
+<li>Allow removing some sections on the home screen</li>
+</ul>
+<hr />
+<h2 id="other">Other</h2>
+<h4 id="disable-xcloud-analytics">Disable xCloud analytics</h4>
+<ul>
+<li>The analytics contains statistics of your streaming session, so I'd recommend allowing analytics to help Xbox improve xCloud's experience in the future.</li>
+</ul>
+<hr />
+<h2 id="advanced-features">Advanced features</h2>
+<h4 id="user-agent">User-Agent</h4>
+<details class="warning">
+<summary>Warning</summary>
+<p>99% of the time you don't need to use this feature anymore. Don't use it unless you're absolutely have to.</p>
+</details>
+<ul>
+<li>Useful when you're using unsupported browsers.</li>
+<li>This setting only affects xCloud, and it doesn't change browser's global User-Agent.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://t.me/betterxcloud" target="_blank" rel="noopener" title="Better xCloud on Telegram" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm4.962 7.224c.1-.002.321.023.465.14a.5.5 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024q-.159.037-5.061 3.345-.72.495-1.302.48c-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789q.04-.324.893-.663 5.247-2.286 6.998-3.014c3.332-1.386 4.025-1.627 4.476-1.635"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://ko-fi.com/redphx" target="_blank" rel="noopener" title="Support Better xCloud on Ko-fi" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.351 2.715c-2.7 0-4.986.025-6.83.26C2.078 3.285 0 5.154 0 8.61c0 3.506.182 6.13 1.585 8.493 1.584 2.701 4.233 4.182 7.662 4.182h.83c4.209 0 6.494-2.234 7.637-4a9.5 9.5 0 0 0 1.091-2.338C21.792 14.688 24 12.22 24 9.208v-.415c0-3.247-2.13-5.507-5.792-5.87-1.558-.156-2.65-.208-6.857-.208m0 1.947c4.208 0 5.09.052 6.571.182 2.624.311 4.13 1.584 4.13 4v.39c0 2.156-1.792 3.844-3.87 3.844h-.935l-.156.649c-.208 1.013-.597 1.818-1.039 2.546-.909 1.428-2.545 3.064-5.922 3.064h-.805c-2.571 0-4.831-.883-6.078-3.195-1.09-2-1.298-4.155-1.298-7.506 0-2.181.857-3.402 3.012-3.714 1.533-.233 3.559-.26 6.39-.26m6.547 2.287c-.416 0-.65.234-.65.546v2.935c0 .311.234.545.65.545 1.324 0 2.051-.754 2.051-2s-.727-2.026-2.052-2.026m-10.39.182c-1.818 0-3.013 1.48-3.013 3.142 0 1.533.858 2.857 1.949 3.897.727.701 1.87 1.429 2.649 1.896a1.47 1.47 0 0 0 1.507 0c.78-.467 1.922-1.195 2.623-1.896 1.117-1.039 1.974-2.364 1.974-3.897 0-1.662-1.247-3.142-3.039-3.142-1.065 0-1.792.545-2.338 1.298-.493-.753-1.246-1.298-2.312-1.298"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.expand", "navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.sections", "navigation.expand"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
